@@ -1,133 +1,81 @@
-# ENGLISH TYPE
-# Academic Pages
-**Academic Pages is a Github Pages template for academic websites.**
+<div align="center">
+# Hi, I'm Chenbin Zhang | 张晨斌
+## Nanjing University of Posts and Telecommunications (NJUPT)
+### 自动化学院、人工智能学院｜控制科学与工程 博士在读
+</div>
 
-![Academic Pages template example](screenshot.jpg "Academic Pages template example")
+<div align="center">
+<img src="https://img.shields.io/badge/Author-张晨斌-NJUPT-orange"/>
+<img src="https://img.shields.io/badge/PhD-控制科学与工程-purple"/>
+<img src="https://img.shields.io/badge/Published-2%20Papers-green"/>
+<img src="https://img.shields.io/badge/License-MIT-blue"/>
+</div>
 
-# Getting Started
+## 👨‍🎓 个人简介
+我是张晨斌，南京邮电大学自动化学院、人工智能学院本硕博贯通培养博士研究生，本科专业为智能科学与技术。
+研究方向聚焦物理仿真建模、Python数值可视化、计算机视觉与嵌入式智能系统，围绕大学物理实验数字化仿真开展多项研究，已以第二作者身份发表两篇《大学物理实验》期刊论文，同步在GitHub开源配套仿真代码项目。
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+### 教育背景
+- 院校：南京邮电大学（Nanjing University of Posts and Telecommunications）
+- 学院：自动化学院、人工智能学院
+- 学历：本硕博贯通 博士在读
+- 研究方向：控制科学与工程、物理数值仿真、嵌入式可视化系统
 
-See more info at https://academicpages.github.io/
+## 📄 已发表学术论文（2篇，均见刊《大学物理实验》）
+### 1. 基于碰撞模型的台球击球问题探究
+**作者**：王新光, 张晨斌, 庹忠曜, 陈伟
+**期刊**：《大学物理实验》, 2025, 38(1): 81-87
+**研究内容**：构建台球全流程完全弹性碰撞物理模型，结合动量守恒、转动定律分析击球角度、作用力与球体轨迹关系，实现碰撞过程数值仿真，为大学物理力学实验教学提供可视化参考方案[[__LINK_ICON]](https://dawushiyan.jlict.edu.cn/CN/10.14139/j.cnki.cn22-1228,2025.01.015?f_link_type=f_linkinlinenote&flow_extra=eyJpbmxpbmVfZGlzcGxheV9wb3NpdGlvbiI6MCwiZG9jX3Bvc2l0aW9uIjowLCJkb2NfaWQiOiJkZDcwNTBmNjdlZDUzY2YwLWYwYTkzNWVkZTMwNGFmYTUifQ%3D%3D "[__LINK_ICON]")。
 
-## Running locally
+### 2. 基于Python的驻波仿真模拟
+**作者**：王新光, 张晨斌, 庹忠曜, 张红光, 李永涛
+**期刊**：《大学物理实验》, 2025, 38(5): 64-73
+**研究内容**：使用Python+Matplotlib搭建交互式驻波仿真平台，区分多组振幅、初相位组合场景，动态演示驻波节点、腹点演化规律，解决传统物理实验难以直观展示波动细节的教学痛点[[__LINK_ICON]](https://dawushiyan.jlict.edu.cn/CN/10.14139/j.cnki.cn22-1228.2025.05.012?f_link_type=f_linkinlinenote&flow_extra=eyJpbmxpbmVfZGlzcGxheV9wb3NpdGlvbiI6MCwiZG9jX3Bvc2l0aW9uIjowLCJkb2NfaWQiOiI3ZDUzYzEyMmQzM2I2ZmNhLWY4YjNiZGI3ZGQ1NjkyOGEifQ%3D%3D "[__LINK_ICON]")。
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+## 🎯 主要研究方向
+1. 经典力学波动、碰撞问题数值仿真与Python可视化
+2. 大学物理实验数字化、交互式仿真平台开发
+3. 轻量化深度学习与实时图像检测
+4. 嵌入式软硬件联合开发（树莓派/Arduino）
+5. 控制科学动力学建模与仿真分析
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+## 🛠 技术栈
+### 编程语言
+Python / C / C++ / MATLAB
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+### 仿真&可视化
+NumPy、Matplotlib、OpenCV、物理数值求解、动画交互开发
 
-## Using Docker
+### 硬件开发
+树莓派、Arduino、传感器数据采集、嘉立创EDA电路设计
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+### 工具
+Git、Docker、学术绘图、期刊论文撰写、实验数据处理
 
-Start by build the container:
+## 🏆 校园荣誉与竞赛
+- 华为教育部智能基座「未来之星」
+- 南京邮电大学综合进步奖学金
+- 校优秀共青团员、先进个人、青年志愿者
+- 美国大学生数学建模竞赛 MCM S奖
+- 校挑战杯铜奖、数学建模竞赛三等奖、智慧城市技术大赛三等奖
 
-```bash
-docker build -t jekyll-site .
-```
+## 🚀 代表性开源项目
+1. billiard-collision-sim：台球弹性碰撞仿真（对应第一篇期刊论文配套代码）
+2. python-standing-wave-sim：交互式驻波动态仿真平台（第二篇论文完整开源工程）
+3. 嵌入式图像识别门禁系统
+4. 多场景轻量化目标检测算法实现
+5. 大学物理综合仿真工具箱
 
-Next, run the container:
-```bash
-docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
-```
+## 📬 联系方式
+- 单位：南京邮电大学自动化学院、人工智能学院
+- 研究领域：物理数值仿真、控制科学与工程、嵌入式智能系统
 
-# Maintenance
+## 📜 开源与引用说明
+1. 所有仿真类开源代码基于MIT协议开放，可用于课程学习、实验教学；
+2. 学术引用两篇期刊论文时，完整作者列表标注包含本人：**张晨斌 (Chenbin Zhang, NJUPT)**；
+3. 商用二次开发请保留原仓库作者署名与论文引用。
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
-
-
-    
-# 中文版本
-
-# 学术页面模板
-**Academic Pages 是一个基于 GitHub Pages 的学术网站模板。**
-
-![学术页面模板示例](screenshot.jpg "学术页面模板示例")
-
-# 快速开始
-
-1. 注册 GitHub 账户并验证邮箱（必需步骤）
-1. 点击右上角 "Use this template" 按钮
-1. 在新建仓库页面，输入仓库名为 "[你的GitHub用户名].github.io"，这将成为你的网站地址
-1. 配置全局设置并添加内容
-1. 上传文件（如PDF、压缩包等）至 `files/` 目录，可通过 https://[你的GitHub用户名].github.io/files/示例.pdf 访问
-1. 在仓库设置的 "GitHub pages" 版块查看部署状态
-1. （可选）使用 `markdown_generator` 目录中的 Jupyter notebook 或 Python 脚本，通过TSV文件自动生成出版物和演讲的Markdown文件
-
-更多信息请访问：https://academicpages.github.io/
-
-## 本地运行
-
-开发网站时，建议先在本地预览修改内容再推送到GitHub。本地运行需要：
-
-1. 克隆仓库并进行上述修改
-1. 确保已安装 ruby-dev、bundler 和 nodejs
-    
-    Linux系统及[WSL](https://learn.microsoft.com/en-us/windows/wsl/about)安装命令：
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    MacOS安装命令：
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. 运行 `bundle install` 安装Ruby依赖。若报错可删除 Gemfile.lock 后重试
-1. 执行 `jekyll serve -l -H localhost` 生成HTML并通过`localhost:4000`提供服务，本地服务器会自动重建页面并实时刷新
-
-Linux系统可能需要额外安装依赖：`sudo apt install build-essential gcc make`
-
-## 使用Docker
-
-使用不同操作系统或不想安装依赖？可通过提供的`Dockerfile`构建容器（需先安装[Docker](https://www.docker.com/)）。
-
-首先构建容器：
-```bash
-docker build -t jekyll-site .
-```
-然后运行容器：
-```bash
-docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
-```
-## 维护说明
-模板的bug反馈和功能请求请通过GitHub提交。样式问题欢迎发起GitHub讨论。
-
-本仓库由Stuart Geiger从Minimal Mistakes Jekyll主题fork并独立，原主题© 2016 Michael Rose，采用MIT许可证（见LICENSE.md）。当前由Robert Zupko维护，欢迎更多维护者加入。
-
-## 提交改进
-如需提交pull request修复bug或增强功能，需先fork仓库（而非直接使用模板）。这样可同步更新你的fork版本。
-
-需要注意的是，此类模板主题在同步核心更新时容易产生冲突。如果已进行自定义配置，建议保存.yml配置文件和markdown文件后重新fork，或手动合并更改。
-
+<div align="center">
+### 信达天下，自强不息 — Nanjing University of Posts and Telecommunications
+</div>
 

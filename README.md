@@ -78,6 +78,7 @@ Git、Docker、学术绘图、期刊论文撰写、实验数据处理
 3. 商用二次开发请保留原仓库作者署名与论文引用。
 
 <div align="center">
-  信达天下，自强不息 — Nanjing University of Posts and Telecommunications
+  信达天下，自强不息 
+  Nanjing University of Posts and Telecommunications
 </div>
 

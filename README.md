@@ -1,6 +1,8 @@
 <div align="center">
 Hi, I'm Chenbin Zhang | 张晨斌
+  
 Nanjing University of Posts and Telecommunications (NJUPT)
+
 自动化学院、人工智能学院｜控制科学与工程 博士在读
 </div>
 
